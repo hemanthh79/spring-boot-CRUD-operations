@@ -38,25 +38,25 @@ Testing: Postman
 ⚙️ Endpoints
 Base URL: http://localhost:8080/students
 
-<h4>Method: POST</h4><br>
+<h4>Method: POST</h4>
 Endpoint: /post<br>
 Description: Add a new student<br>
 Request Body Example: { "name": "Hemanth", "address": "Vijayawada", "email": "hemanth@example.com" }
 
-<h4>Method: GET</h4><br>
+<h4>Method: GET</h4>
 Endpoint: /get<br>
 Description: Get all students
 
-<h4>Method: GET</h4><br>
+<h4>Method: GET</h4>
 Endpoint: /get/{id}<br>
 Description: Get a student by ID
 
-<h4>Method: POST</h4><br>
+<h4>Method: POST</h4>
 Endpoint: /update/{id}<br>
 Description: Update a student by ID<br>
 Request Body Example: { "name": "New Name", "address": "New Address", "email": "newmail@example.com" }
 
-<h4>Method: GET</h4><br>
+<h4>Method: GET</h4>
 Endpoint: /delete/{id}
 Description: Delete a student by ID
 
