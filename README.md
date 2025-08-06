@@ -38,52 +38,52 @@ Testing: Postman
 ⚙️ Endpoints
 Base URL: http://localhost:8080/students
 
-Method: POST
-Endpoint: /post
-Description: Add a new student
+<h4>Method: POST</h4><br>
+Endpoint: /post<br>
+Description: Add a new student<br>
 Request Body Example: { "name": "Hemanth", "address": "Vijayawada", "email": "hemanth@example.com" }
 
-Method: GET
-Endpoint: /get
+<h4>Method: GET</h4><br>
+Endpoint: /get<br>
 Description: Get all students
 
-Method: GET
-Endpoint: /get/{id}
+<h4>Method: GET</h4><br>
+Endpoint: /get/{id}<br>
 Description: Get a student by ID
 
-Method: POST
-Endpoint: /update/{id}
-Description: Update a student by ID
+<h4>Method: POST</h4><br>
+Endpoint: /update/{id}<br>
+Description: Update a student by ID<br>
 Request Body Example: { "name": "New Name", "address": "New Address", "email": "newmail@example.com" }
 
-Method: GET
+<h4>Method: GET</h4><br>
 Endpoint: /delete/{id}
 Description: Delete a student by ID
 
-🗄 Database Configuration
+<h3>🗄 Database Configuration</h3>
 Before running the app, create a MySQL database:
 
 CREATE DATABASE student_data;
 
 Update application.properties with your MySQL credentials:
 
-spring.application.name=CRUD Operations
-spring.datasource.url=jdbc:mysql://localhost:3306/student_data
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
+spring.application.name=CRUD Operations<br>
+spring.datasource.url=jdbc:mysql://localhost:3306/student_data<br>
+spring.datasource.username=root<br>
+spring.datasource.password=yourpassword<br>
+spring.jpa.hibernate.ddl-auto=update<br>
 
 ▶️ Running the Application
-Clone the repository
+Clone the repository:<br>
 git clone https://github.com/hemanthh79/spring-boot-CRUD-operations.git
 
-Navigate to the project directory
+Navigate to the project directory<br>
 cd CRUD_Operations
 
-Run the application with Maven
+Run the application with Maven<br>
 mvn spring-boot:run
 
-Test APIs in Postman
+Test APIs in Postman<br>
 http://localhost:8080/students
 
 📌 Notes
